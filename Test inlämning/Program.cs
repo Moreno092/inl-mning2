@@ -30,7 +30,7 @@ namespace Test_inlämning
             string input3 = Console.ReadLine();
 
 
-            // Bug test
+            //bug test2
 
 
             if (Action1 == '+')
