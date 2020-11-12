@@ -68,7 +68,7 @@ namespace Test_inlämning
             else if(Action2 == '*')
             {
                 Console.WriteLine(input3 + '*' + input2);
-                result1 = Convert.ToInt32(input3) * Convert.ToInt32(input2);
+                result1 = Convert.ToInt32(input3) * result;
             }
             else if(Action2 == '/')
             {
