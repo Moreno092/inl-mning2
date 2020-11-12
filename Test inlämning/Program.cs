@@ -30,7 +30,7 @@ namespace Test_inlämning
             string input3 = Console.ReadLine();
 
 
-
+            // Bug test
 
 
             if (Action1 == '+')
@@ -54,6 +54,11 @@ namespace Test_inlämning
                 result = Convert.ToInt32(input1) / Convert.ToInt32(input2);
             }
 
+
+
+
+
+
             if(Action2 == '+')
             {
                 Console.WriteLine(input3 + '+' + result);
@@ -70,7 +75,7 @@ namespace Test_inlämning
                 Console.WriteLine(input3 + '*' + input2);
                 result1 = Convert.ToInt32(input3) * result;
             }
-            //dfhd
+            
             else if(Action2 == '/')
             {
                 Console.WriteLine(input3 + '/' + result);
