@@ -70,6 +70,7 @@ namespace Test_inlämning
                 Console.WriteLine(input3 + '*' + input2);
                 result1 = Convert.ToInt32(input3) * result;
             }
+            //dfhd
             else if(Action2 == '/')
             {
                 Console.WriteLine(input3 + '/' + result);
